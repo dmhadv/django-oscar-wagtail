@@ -1,8 +1,9 @@
 from setuptools import find_packages, setup
 
 install_requires = [
-    'django-oscar>=1.6',
-    'wagtail>=2.0',
+    'django-oscar>=2.1',
+    'wagtail>=2.11,<2.12',
+    'six~=1.14.0',
 ]
 
 docs_require = [
